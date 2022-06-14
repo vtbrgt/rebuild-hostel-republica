@@ -7,41 +7,137 @@
 
     <title>Hostel República</title>
 
-    <link rel="stylesheet" href="/dist/output.css" />
+    <link rel="stylesheet" href="/css/home.css" />
+    <script
+      src="https://kit.fontawesome.com/4175a75404.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  <body class="px-4">
-    <header class="px-0">
-      <nav class="w-auto h-9">
-        <div
-          class="w-auto h-9 bg-[url('/imagens/mobile_nav.png')] bg-no-repeat bg-contain bg-left bg-amarelo-padrao"
-        >
-          <!--menu-mobile-->
+  <body>
+    <header>
+      <nav>
+        <div class="nav-mobile">
+          <!--nav-mobile-->
+          <i class="fa-solid fa-bars-staggered"></i>
         </div>
-        <div>
-          <!--menu-->
+        <div class="nav">
+          <!--nav-->
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">O Hostel</a></li>
+            <li><a href="#">Tarifário</a></li>
+            <li><a href="#">Acomodações</a></li>
+            <li><a href="#">Políticas</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="#">O que fazer na cidade</a></li>
+          </ul>
         </div>
       </nav>
     </header>
 
     <main>
-      <img class="mx-auto" src="/imagens/logo.png" alt="Logo" />
+      <img class="" src="/imagens/logo.png" alt="Logo" />
 
-      <div class="flex flex-wrap">
+      <section class="heroes">
         <!--CARROSSEL-->
-        <img src="/imagens/carrossel_1.jpg" />
+        <img class="" src="/imagens/carrossel_1.jpg" />
+        <!--
         <img src="/imagens/carrossel_2.jpg" />
         <img src="/imagens/carrossel_3.jpg" />
         <img src="/imagens/carrossel_4.jpg" />
-      </div>
+        -->
+      </section>
 
-      <div>
+      <section class="vantagens">
         <!--VANTAGENS-->
-        <p>Estacionamento ao lado.</p>
+        <div class="estacionamento">
+          <i class="fa-solid fa-car"></i>
+          <p>Estacionamento ao lado.</p>
+          <p>(estacionamento pago)</p>
+        </div>
 
-        <p>A 100 metros da estação Catete do Metrô.</p>
+        <div class="metro">
+          <i class="fa-solid fa-train-subway"></i>
+          <p>A 100 metros da estação Catete do Metrô.</p>
+        </div>
 
-        <p>Ambiente com Wifi gratuito.</p>
-      </div>
+        <div class="wifi">
+          <i class="fa-solid fa-wifi"></i>
+          <p>Ambiente com Wifi gratuito.</p>
+        </div>
+      </section>
+
+      <section class="localizacao">
+        <img src="/imagens/localizacao.jpg" />
+
+        <p>Localização:</p>
+        <p class="descricao">
+          O Hostel República está localizado em uma rua super charmosa e calma
+          no coração do bairro do Catete, na Zona Sul do Rio de Janeiro.
+          Perfeito para casais e famílias , nossas instalações oferecem uma
+          atmosfera caseira e super aconchegante.
+        </p>
+      </section>
+
+      <section class="vantagens">
+        <div class="ambiente">
+          <i class="fa-solid fa-face-smile"></i>
+          <p>Ambiente familiar!</p>
+        </div>
+
+        <div class="comodidade">
+          <i class="fa-solid fa-suitcase"></i>
+          <p>Segurança e comodidade.</p>
+        </div>
+
+        <div class="cafe">
+          <i class="fa-solid fa-mug-saucer"></i>
+          <p>Café da manhã.</p>
+        </div>
+      </section>
+
+      <section class="pontos-turisticos">
+        <img src="/imagens/pontos turisticos.jpg" />
+
+        <p>Colecione memórias inesquecíveis!</p>
+        <p class="descricao">
+          Aproveite nossas praias, nosso lifestyle, nossa música e, claro, não
+          deixe de visitar os principais pontos turísticos da cidade. Para mais
+          informações, fale com a gente na recepção.
+        </p>
+      </section>
+
+      <section class="contato">
+        <div class="telefones">
+          <i class="fa-solid fa-phone"></i>
+          <p>+55 (21) 2556-2315</p>
+
+          <button><i class="fa-brands fa-whatsapp"></i></button>
+          <p>+55 (21) 97442-3202</p>
+        </div>
+
+        <div>
+          <i class="fa-solid fa-location-dot"></i>
+          <p>Rua Silveira Martins, 139 – Catete, Rio de Janeiro – RJ</p>
+        </div>
+
+        <div>
+          <i class="fa-brands fa-facebook-square"></i>
+          <p class="descricao">Curta nossa página no Facebook</p>
+        </div>
+      </section>
+
+      <section class="selos">
+        <img src="/imagens/selo_1.png" />
+        <img src="/imagens/selo_2.png" />
+      </section>
     </main>
+
+    <footer>
+      <p>
+        Site refatorado com propósitos educacionais por:
+        <a href="https://github.com/vtbrgt" target="_blank">Vitor Borgatte</a>
+      </p>
+    </footer>
   </body>
 </html>

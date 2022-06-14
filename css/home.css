@@ -1,0 +1,21 @@
+:root {
+  --amarelo-padrao: #eab013;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-mobile {
+  background-color: var(--amarelo-padrao);
+}
+
+.nav-mobile i {
+  color: #fefefe;
+}
+
+.nav {
+  display: none;
+}
