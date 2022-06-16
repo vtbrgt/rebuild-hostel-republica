@@ -1,0 +1,145 @@
+$amarelo-padrao: #eab013;
+$azul-claro: #6ec1e4;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #727272;
+  font-size: 18px;
+  text-align: center;
+}
+
+section {
+  margin: 2em 0 2em 0;
+}
+
+img {
+  width: 325px;
+  height: 200px;
+}
+
+.nav-mobile {
+  background: $amarelo-padrao;
+  padding: 0.3em;
+  text-align: start;
+  i {
+    color: #fefefe;
+    margin-left: 0.5em;
+  }
+}
+
+.nav {
+  display: none;
+}
+
+main i {
+  color: $azul-claro;
+  width: 32px;
+  height: 32px;
+  margin: 1em 0 0.3em 0;
+}
+
+.container-logo {
+  text-align: center;
+  .logo {
+    margin: 1em 0 1em 0;
+    max-width: 200px;
+    max-height: 200px;
+  }
+}
+
+.carrossel {
+  text-align: center;
+  margin: 1em 0 1em 0;
+}
+
+.vantagens {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.localizacao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  p {
+    align-self: flex-start;
+    text-align: left;
+    margin: 0.8em 0 0.8em 1.3em;
+    font-size: 22px;
+  }
+}
+
+.pontos-turisticos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  p {
+    align-self: flex-start;
+    text-align: left;
+    margin: 0.8em 0 0.8em 1.3em;
+    font-size: 22px;
+    width: 90%;
+  }
+}
+
+.descricao {
+  font-size: 15px !important;
+  width: 85%;
+}
+
+.contato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  button {
+    all: unset;
+  }
+}
+
+.selos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5em;
+  img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+footer {
+  background-color: #333;
+  font-family: monospace;
+  font-size: 12px;
+  color: #fefefe;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  p {
+    width: 75%;
+  }
+  a {
+    color: $amarelo-padrao;
+  }
+}
