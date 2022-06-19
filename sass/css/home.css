@@ -67,17 +67,22 @@ main i {
 /* line 59, ../Projetos Pessoais/rebuild-hostel-republica/sass/scss/home.scss */
 .carrossel {
   text-align: center;
-  margin: 1em 0 1em 0;
+  margin: 1em 0 0 0;
 }
 
-/* line 64, ../Projetos Pessoais/rebuild-hostel-republica/sass/scss/home.scss */
+/* line 62, ../Projetos Pessoais/rebuild-hostel-republica/sass/scss/home.scss */
+.carrossel img {
+  margin-bottom: 0.8em;
+}
+
+/* line 67, ../Projetos Pessoais/rebuild-hostel-republica/sass/scss/home.scss */
 .vantagens {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-/* line 68, ../Projetos Pessoais/rebuild-hostel-republica/sass/scss/home.scss */
+/* line 71, ../Projetos Pessoais/rebuild-hostel-republica/sass/scss/home.scss */
 .vantagens div {
   width: 100%;
   display: flex;
@@ -85,14 +90,14 @@ main i {
   align-items: center;
 }
 
-/* line 76, ../Projetos Pessoais/rebuild-hostel-republica/sass/scss/home.scss */
+/* line 79, ../Projetos Pessoais/rebuild-hostel-republica/sass/scss/home.scss */
 .localizacao {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-/* line 80, ../Projetos Pessoais/rebuild-hostel-republica/sass/scss/home.scss */
+/* line 83, ../Projetos Pessoais/rebuild-hostel-republica/sass/scss/home.scss */
 .localizacao p {
   align-self: flex-start;
   text-align: left;
@@ -100,14 +105,14 @@ main i {
   font-size: 22px;
 }
 
-/* line 88, ../Projetos Pessoais/rebuild-hostel-republica/sass/scss/home.scss */
+/* line 91, ../Projetos Pessoais/rebuild-hostel-republica/sass/scss/home.scss */
 .pontos-turisticos {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-/* line 92, ../Projetos Pessoais/rebuild-hostel-republica/sass/scss/home.scss */
+/* line 95, ../Projetos Pessoais/rebuild-hostel-republica/sass/scss/home.scss */
 .pontos-turisticos p {
   align-self: flex-start;
   text-align: left;
@@ -116,32 +121,38 @@ main i {
   width: 90%;
 }
 
-/* line 101, ../Projetos Pessoais/rebuild-hostel-republica/sass/scss/home.scss */
+/* line 104, ../Projetos Pessoais/rebuild-hostel-republica/sass/scss/home.scss */
+.carrossel,
 .localizacao,
 .pontos-turisticos {
   background: linear-gradient(135deg, #eab013, #eccf80);
+  box-shadow: 5px 5px 15px rgba(44, 44, 44, 0.5);
+  border-radius: 5px;
+  width: 80%;
+  margin: 0 auto;
 }
 
-/* line 104, ../Projetos Pessoais/rebuild-hostel-republica/sass/scss/home.scss */
+/* line 112, ../Projetos Pessoais/rebuild-hostel-republica/sass/scss/home.scss */
+.carrossel img,
 .localizacao img,
 .pontos-turisticos img {
   margin-top: 0.8em;
 }
 
-/* line 109, ../Projetos Pessoais/rebuild-hostel-republica/sass/scss/home.scss */
+/* line 117, ../Projetos Pessoais/rebuild-hostel-republica/sass/scss/home.scss */
 .descricao {
   font-size: 15px !important;
   width: 85%;
 }
 
-/* line 114, ../Projetos Pessoais/rebuild-hostel-republica/sass/scss/home.scss */
+/* line 122, ../Projetos Pessoais/rebuild-hostel-republica/sass/scss/home.scss */
 .contato {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-/* line 118, ../Projetos Pessoais/rebuild-hostel-republica/sass/scss/home.scss */
+/* line 126, ../Projetos Pessoais/rebuild-hostel-republica/sass/scss/home.scss */
 .contato div {
   width: 100%;
   display: flex;
@@ -149,12 +160,12 @@ main i {
   align-items: center;
 }
 
-/* line 124, ../Projetos Pessoais/rebuild-hostel-republica/sass/scss/home.scss */
+/* line 132, ../Projetos Pessoais/rebuild-hostel-republica/sass/scss/home.scss */
 .contato button {
   all: unset;
 }
 
-/* line 129, ../Projetos Pessoais/rebuild-hostel-republica/sass/scss/home.scss */
+/* line 137, ../Projetos Pessoais/rebuild-hostel-republica/sass/scss/home.scss */
 .selos {
   display: flex;
   flex-direction: column;
@@ -162,13 +173,13 @@ main i {
   gap: 1.5em;
 }
 
-/* line 134, ../Projetos Pessoais/rebuild-hostel-republica/sass/scss/home.scss */
+/* line 142, ../Projetos Pessoais/rebuild-hostel-republica/sass/scss/home.scss */
 .selos img {
   width: 150px;
   height: 150px;
 }
 
-/* line 140, ../Projetos Pessoais/rebuild-hostel-republica/sass/scss/home.scss */
+/* line 148, ../Projetos Pessoais/rebuild-hostel-republica/sass/scss/home.scss */
 footer {
   background: linear-gradient(135deg, #eab013, #eccf80);
   font-family: monospace;
@@ -180,12 +191,12 @@ footer {
   justify-content: center;
 }
 
-/* line 150, ../Projetos Pessoais/rebuild-hostel-republica/sass/scss/home.scss */
+/* line 158, ../Projetos Pessoais/rebuild-hostel-republica/sass/scss/home.scss */
 footer p {
   width: 75%;
 }
 
-/* line 153, ../Projetos Pessoais/rebuild-hostel-republica/sass/scss/home.scss */
+/* line 161, ../Projetos Pessoais/rebuild-hostel-republica/sass/scss/home.scss */
 footer a {
   color: #727272;
 }

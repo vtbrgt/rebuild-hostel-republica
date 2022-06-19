@@ -58,7 +58,10 @@ main i {
 
 .carrossel {
   text-align: center;
-  margin: 1em 0 1em 0;
+  margin: 1em 0 0 0;
+  img {
+    margin-bottom: 0.8em;
+  }
 }
 
 .vantagens {
@@ -98,9 +101,14 @@ main i {
   }
 }
 
+.carrossel,
 .localizacao,
 .pontos-turisticos {
   background: linear-gradient(135deg, $amarelo-padrao, $amarelo-claro);
+  box-shadow: 5px 5px 15px rgba(44, 44, 44, 0.5);
+  border-radius: 5px;
+  width: 80%;
+  margin: 0 auto;
   img {
     margin-top: 0.8em;
   }
