@@ -1,5 +1,6 @@
 $amarelo-padrao: #eab013;
-$azul-claro: #6ec1e4;
+$amarelo-claro: #eccf80;
+$verde-terroso: #727272;
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
 * {
@@ -10,7 +11,7 @@ $azul-claro: #6ec1e4;
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: #727272;
+  color: #333;
   font-size: 18px;
   text-align: center;
 }
@@ -25,8 +26,8 @@ img {
 }
 
 .nav-mobile {
-  background: $amarelo-padrao;
-  padding: 0.3em;
+  background: linear-gradient(135deg, $amarelo-padrao, $amarelo-claro);
+  padding: 10px;
   text-align: start;
   i {
     color: #fefefe;
@@ -39,10 +40,11 @@ img {
 }
 
 main i {
-  color: $azul-claro;
+  color: #ef9606;
   width: 32px;
   height: 32px;
   margin: 1em 0 0.3em 0;
+  filter: drop-shadow(1px 4px 2px #3f95b8);
 }
 
 .container-logo {
@@ -96,6 +98,14 @@ main i {
   }
 }
 
+.localizacao,
+.pontos-turisticos {
+  background: linear-gradient(135deg, $amarelo-padrao, $amarelo-claro);
+  img {
+    margin-top: 0.8em;
+  }
+}
+
 .descricao {
   font-size: 15px !important;
   width: 85%;
@@ -128,10 +138,11 @@ main i {
 }
 
 footer {
-  background-color: #333;
+  background: linear-gradient(135deg, $amarelo-padrao, $amarelo-claro);
+
   font-family: monospace;
   font-size: 12px;
-  color: #fefefe;
+  color: #333;
   height: 80px;
   display: flex;
   align-items: center;
@@ -140,6 +151,6 @@ footer {
     width: 75%;
   }
   a {
-    color: $amarelo-padrao;
+    color: $verde-terroso;
   }
 }
