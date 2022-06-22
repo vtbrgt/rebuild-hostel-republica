@@ -30,12 +30,38 @@ img {
   padding: 10px;
   text-align: start;
   i {
+    display: block;
     color: #fefefe;
     margin-left: 0.5em;
   }
+}
+
+.menu {
+  display: none;
+  transition: 0.6s;
   ul {
-    display: none;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
   }
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fefefe;
+    font-size: 0.9em;
+    transition: 0.8s;
+  }
+  a:hover {
+    color: #4ebce8;
+  }
+}
+
+.nav.ativo .menu {
+  margin-top: 5px;
+  display: block;
 }
 
 main i {
@@ -169,22 +195,12 @@ footer {
     i {
       display: none;
     }
+  }
+
+  .menu {
+    display: block;
     ul {
-      list-style: none;
-      display: flex;
-      justify-content: center;
-      gap: 25px;
-    }
-    a {
-      text-decoration: none;
-      text-transform: uppercase;
-      font-weight: 700;
-      color: #fefefe;
-      font-size: 0.9em;
-      transition: 0.8s;
-    }
-    a:hover {
-      color: #4ebce8;
+      flex-direction: row;
     }
   }
 
