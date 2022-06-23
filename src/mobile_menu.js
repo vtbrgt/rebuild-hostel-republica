@@ -1,9 +1,9 @@
 const botaoMenu = document.querySelector('.botao_menu');
-const nav = document.querySelector('.nav');
 
-/* mostrar menu ao clicar */
 function mostraMenu(event) {
-  if (event.type === 'touchstart') event.preventDefault();
+  if (event.type === 'touchstart')
+    event.preventDefault(); /* previnir que o 'click' seja executado duas vezes no mobile por conta do 'touchstart' */
+  const nav = document.querySelector('.nav');
   nav.classList.toggle('ativo');
 }
 
