@@ -76,9 +76,11 @@ img {
     color: #fefefe;
     font-size: 0.9em;
     transition: 0.8s;
+    text-shadow: 3px 2px 2px #3f95b8;
   }
   a:hover {
     color: #4ebce8;
+    text-shadow: 3px 2px 2px #fefefe;
   }
 }
 
