@@ -38,14 +38,19 @@
         <img class="logo" src="/imagens/logo.png" alt="Logo" />
       </div>
 
-      <section class="carrossel">
-        <!--CARROSSEL-->
-        <img class="" src="/imagens/carrossel_1.jpg" />
-        <!--
-        <img src="/imagens/carrossel_2.jpg" />
-        <img src="/imagens/carrossel_3.jpg" />
-        <img src="/imagens/carrossel_4.jpg" />
-        -->
+      <!--SLIDE-->
+      <section data-slide="slide" class="slide">
+        <div class="slide-items">
+          <img src="/imagens/carrossel_1.jpg" alt="Fachada do Hostel" />
+          <img src="/imagens/carrossel_2.jpg" alt="Recepção" />
+          <img src="/imagens/carrossel_3.jpg" alt="Recepção 2" />
+          <img src="/imagens/carrossel_4.jpg" alt="Fachada 2" />
+        </div>
+        <nav class="slide-nav">
+          <div class="slide-thumb"></div>
+          <button class="slide-prev">Anterior</button>
+          <button class="slide-next">Próximo</button>
+        </nav>
       </section>
 
       <section class="vantagens">
@@ -112,18 +117,28 @@
           <i class="fa-solid fa-phone fa-2xl"></i>
           <p>+55 (21) 2556-2315</p>
 
-          <button><i class="fa-brands fa-whatsapp fa-2xl"></i></button>
-          <p>+55 (21) 97442-3202</p>
+          <button>
+            <a href="https://wa.me/5521974423202" target="_blank"
+              ><i class="fa-brands fa-whatsapp fa-2xl"></i>
+              <p>+55 (21) 97442-3202</p></a
+            >
+          </button>
         </div>
 
         <div>
-          <i class="fa-solid fa-location-dot fa-2xl"></i>
-          <p>Rua Silveira Martins, 139 – Catete, Rio de Janeiro – RJ</p>
+          <a href="https://goo.gl/maps/TojFyzEr7Tgs5sCr5" target="_blank"
+            ><i class="fa-solid fa-location-dot fa-2xl"></i>
+            <p>Rua Silveira Martins, 139 – Catete, Rio de Janeiro – RJ</p></a
+          >
         </div>
 
         <div>
-          <i class="fa-brands fa-facebook-square fa-2xl"></i>
-          <p class="descricao">Curta nossa página no Facebook</p>
+          <a
+            href="https://www.facebook.com/hostelrepublicaoficial"
+            target="_blank"
+            ><i class="fa-brands fa-facebook-square fa-2xl"></i>
+            <p class="descricao">Curta nossa página no Facebook</p></a
+          >
         </div>
       </section>
 
@@ -139,7 +154,8 @@
         <a href="https://github.com/vtbrgt" target="_blank">Vitor Borgatte</a>
       </p>
     </footer>
-    <script src="mobile_menu.js"></script>
-    <script src="sticky_navbar.js"></script>
+    <script src="./mobile_menu.js"></script>
+    <script src="./sticky_navbar.js"></script>
+    <script src="./slide_stories.js"></script>
   </body>
 </html>
