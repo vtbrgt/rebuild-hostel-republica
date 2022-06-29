@@ -8,5 +8,6 @@ function mostraMenu(event) {
 }
 
 botaoMenu.addEventListener('click', mostraMenu);
+
 /* responsividade mobile (ux) */
 botaoMenu.addEventListener('touchstart', mostraMenu);

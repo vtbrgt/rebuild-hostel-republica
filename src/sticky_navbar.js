@@ -9,6 +9,4 @@ function grudaNavBar() {
   }
 }
 
-/* if window.siz */
-
 window.onscroll = grudaNavBar();
